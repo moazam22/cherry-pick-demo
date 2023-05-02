@@ -6,19 +6,19 @@ export const data=[
   },
   {
     name: 'John Doe',
-    email: 'moazamrana22@gmail.com',
+    email: 'j.d@gmail.com',
     age: 22,
   },{
     name: 'John Smith',
-    email: 'moazamrana22@gmail.com',
+    email: 'j.s@gmail.com',
     age: 29,
   },{
     name: 'John Wick',
-    email: 'moazamrana22@gmail.com',
+    email: 'john_wick@gmail.com',
     age: 33,
   },{
     name: 'Test User',
-    email: 'moazamrana22@gmail.com',
+    email: 'test@gmail.com',
     age: 45,
   },
 ];
