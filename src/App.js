@@ -24,7 +24,13 @@ function App() {
               <td>{item.name}</td>
               <td>{item.email}</td>
               <td>{item.age}</td>
-              <td><div className="delete-button">Delete</div></td>
+              <td>
+                <div className="table-actions">
+                  <div className="delete-button">Edit</div>
+                  <div className="delete-button">Delete</div>
+                </div>
+              </td>
+             
             </tr>
           ))
         }
