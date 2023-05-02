@@ -7,3 +7,9 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.delete-button{
+  color: #4b4bb2;
+  text-decoration: underline;
+  cursor: pointer;
+}

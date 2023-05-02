@@ -16,6 +16,7 @@ function App() {
           <th>Name</th>
           <th>Email</th>
           <th>Age</th>
+          <th>Actions</th>
         </tr>
         {
           !!data?.length && data.map((item,key) => (
@@ -23,6 +24,7 @@ function App() {
               <td>{item.name}</td>
               <td>{item.email}</td>
               <td>{item.age}</td>
+              <td><div className="delete-button">Delete</div></td>
             </tr>
           ))
         }
