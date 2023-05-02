@@ -1,4 +1,4 @@
-const data=[
+export const data=[
   {
     name: 'Rana Moazam',
     email: 'moazamrana22@gmail.com',
